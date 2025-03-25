@@ -1,0 +1,40 @@
+/* Căn chỉnh container chứa checkbox và quên mật khẩu */
+.remember-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px; /* Khoảng cách giữa ô nhập và tùy chọn này */
+}
+
+/* Căn chỉnh phần checkbox "Nhớ mật khẩu" */
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Khoảng cách giữa checkbox và nhãn */
+}
+
+.remember-me input[type="checkbox"] {
+  width: 16px; /* Kích thước checkbox */
+  height: 16px;
+  accent-color: #4a90e2; /* Màu sắc checkbox (tùy chỉnh nếu cần) */
+  cursor: pointer; /* Con trỏ khi hover */
+}
+
+.remember-me label {
+  font-size: 14px;
+  color: #ffffff; /* Màu chữ nhãn */
+  cursor: pointer; /* Nhấp vào nhãn để chọn checkbox */
+}
+
+/* Căn chỉnh phần "Quên mật khẩu" */
+.forgot-password {
+  color: #4a90e2; /* Màu sắc liên kết */
+  font-size: 14px;
+  text-decoration: none; /* Bỏ gạch chân */
+  transition: all 0.3s ease; /* Hiệu ứng hover */
+}
+
+.forgot-password:hover {
+  text-decoration: underline; /* Gạch chân khi hover */
+  color: #1e68b7; /* Màu sắc đổi khi hover */
+}
